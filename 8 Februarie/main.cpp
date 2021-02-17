@@ -181,9 +181,15 @@ int prim_recursiv(int n, int div) {
         }
     }
 }
-
+void f_bac(int n){
+    cout<<n%10;
+    if (n!=0){
+        cout<<n%10;
+        f_bac(n/100);
+    }
+}
 
 int main() {
-    cout << prim_recursiv(14,2);
+    f_bac(125);
     return 0;
 }
