@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string.h>
-
 using namespace std;
 
 int F(int n) {
@@ -190,6 +189,12 @@ void f_bac(int n){
 }
 
 int main() {
-    f_bac(125);
+    int n,v[100];
+    cin>>n;
+    for (int i=0;i<n;i++)
+        cin>>v[i];
+    aranjare(v,n);
+    for (int i=0;i<n;i++)
+        cout<<v[i]<<" ";
     return 0;
 }

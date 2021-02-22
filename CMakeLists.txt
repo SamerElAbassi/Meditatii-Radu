@@ -3,4 +3,4 @@ project(Meditatii)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Meditatii "8 Februarie/main.cpp" 17feb/bac.cpp)
+add_executable(Meditatii "8 Februarie/main.cpp" "22 Februarie/iterative.cpp")
