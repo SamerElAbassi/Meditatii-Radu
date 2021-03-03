@@ -100,7 +100,6 @@ void aranjare(int v[], int n) {
             i--;
             C++;
             cout<<"Vectorul dupa mutari:";
-            afisare(v,n);
         }
     }
 }

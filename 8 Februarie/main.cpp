@@ -193,7 +193,6 @@ int main() {
     cin>>n;
     for (int i=0;i<n;i++)
         cin>>v[i];
-    aranjare(v,n);
     for (int i=0;i<n;i++)
         cout<<v[i]<<" ";
     return 0;
