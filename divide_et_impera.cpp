@@ -89,7 +89,7 @@ int suma_pare(int V[], int st, int dr) {
         int m = (st + dr) / 2;
         int s_st = suma_pare(V, st, m);
         int s_dr = suma_pare(V, m + 1, dr);
-        return s_st+s_dr
+        return s_st+s_dr;
     }
 }
 //Se consideră un șir cu n elemente, numere naturale. Folosind metoda Divide et Impera, determinați cel mai mare element din acest șir.
